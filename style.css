@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(33, 30, 29);
+}
+
+h1 {
+    margin: 30px;
+    padding: 30px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+span {
+    color: rgb(253, 73, 18);
+}
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+float: left;
+border-radius: 5px;
+}
+
+li{
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alcohol{
+    width: 400px;
+    padding: 3px;
+}
+
+h4{
+    font-size: 26px;
+    color: rgb(253, 73, 18);
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: rgb(253, 73, 18);
+    border: none;
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+span1{
+    color:  rgb(253, 73, 18);
+    font-size: 24px;
+    padding: 8px;
+}
+
+@media(max-width:768px) and (min-width:425px){
+    div{
+        flex-direction: column;
+        height: auto;
+    }
+    .alcohol{
+        width: auto;
+    }
+    img{
+        height: 300px;
+        width: 200px;
+        padding: 4px;
+    }
+}
+
+@media (max-width:425px){
+    div{
+        flex-direction: column;
+        height: auto;
+    }
+}
